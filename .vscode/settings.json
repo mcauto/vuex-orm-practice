@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    { "language": "vue", "autoFix": true },
+    { "language": "javascript", "autoFix": true },
+    { "language": "html", "autoFix": true }
+  ]
+}

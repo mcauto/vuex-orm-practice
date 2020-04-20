@@ -1,0 +1,6 @@
+# javascript dependencies
+node_modules
+# dist
+dist
+# test coverage report
+coverage
