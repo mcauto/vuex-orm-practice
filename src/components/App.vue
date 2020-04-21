@@ -2,17 +2,18 @@
   <div class="App">
     <h1>App</h1>
     <PulseLoader :loading="loading" :color="color" :size="size" />
-    <div v-for="breed in breeds" :key="breed.id">{{ breed }}</div>
+    <BreedList :breeds="breeds" />
   </div>
 </template>
 
 <script>
 import PulseLoader from "vue-spinner/src/PulseLoader.vue";
 import Breed from "@/models/Breed";
+import BreedList from "@/components/BreedList.vue";
 
 export default {
   name: "App",
-  components:{PulseLoader},
+  components:{PulseLoader, BreedList},
   data() {
     return {
       color: "#5DC596",
