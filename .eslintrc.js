@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     browser: true,
-    node: true
+    node: false
   },
   extends: [
     "plugin:vue/essential",
@@ -13,7 +13,8 @@ module.exports = {
   rules: {
     semi: ["error", "always"],
     quotes: ["error", "double"],
-    "comma-dangle": ["error", "never"]
+    "comma-dangle": ["error", "never"],
+    "no-console": ["error", { allow: ["warn", "error"] }]
   },
   parserOptions: {
     parser: "babel-eslint"
