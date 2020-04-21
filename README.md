@@ -1,5 +1,7 @@
 # ILC(I Love Cat) - Vuex-ORM-Axios Example
 
+![preview](docs/preview.png)
+
 Practice project
 
 ## Run
@@ -16,8 +18,8 @@ $ vue-cli-service serve
 
 
   App running at:
-  - Local:   http://localhost:3000/
-  - Network: http://{network_ipaddr}:3000/
+  - Local:   http://localhost:3030/
+  - Network: http://{network_ipaddr}:3030/
 
   Note that the development build is not optimized.
   To create a production build, run yarn build.

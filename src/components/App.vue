@@ -1,29 +1,32 @@
 <template>
   <div class="App">
-    <h1>App</h1>
+    <h1>{{ title }}</h1>
     <PulseLoader :loading="loading" :color="color" :size="size" />
     <BreedList :breeds="breeds" />
   </div>
 </template>
 
 <script>
+// TODO: fix test
+// `SyntaxError: Unexpected token '<'`
 import PulseLoader from "vue-spinner/src/PulseLoader.vue";
-import Breed from "@/models/Breed";
+import Breed from "@/models/Breed.js";
 import BreedList from "@/components/BreedList.vue";
 
 export default {
   name: "App",
-  components:{PulseLoader, BreedList},
+  components: { PulseLoader, BreedList },
   data() {
     return {
+      title: "I Love Cat",
       color: "#5DC596",
       size: "20px",
       loading: true
     };
   },
   computed: {
-    breeds:{
-      get: function(){
+    breeds: {
+      get: function () {
         return Breed.query().all();
       }
     }
@@ -49,5 +52,4 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
-</style>
+<style lang="postcss" scoped></style>
