@@ -1,6 +1,7 @@
 # ILC(I Love Cat) - Vuex-ORM-Axios Example
 
 ![preview](docs/preview.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmcauto%2Fvuex-orm-practice.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmcauto%2Fvuex-orm-practice?ref=badge_shield)
 
 Practice project
 
@@ -30,3 +31,7 @@ $ vue-cli-service serve
 [vuex-orm](https://github.com/vuex-orm/vuex-orm)
 
 [vuex-orm/plugin-axios](https://github.com/vuex-orm/plugin-axios)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmcauto%2Fvuex-orm-practice.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmcauto%2Fvuex-orm-practice?ref=badge_large)
